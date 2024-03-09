@@ -6,7 +6,7 @@ using UnityEngine.InputSystem.LowLevel;
 public class DisapperingThing : MonoBehaviour
 {
     // Start is called before the first frame update
-    public Activable[] activators;
+    public Activator[] activators;
     public Collider collider;
     public Renderer renderer;
     public bool Enabled;

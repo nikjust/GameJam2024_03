@@ -5,9 +5,9 @@ using UnityEngine;
 public class Activator : MonoBehaviour
 {
     // Start is called before the first frame update
-    public Material active;
-    public Material unactive;
-    private bool _activated = false;
+    //public Material active;
+    //public Material unactive;
+    protected bool _activated = false;
     void Start()
     {
         
@@ -27,7 +27,7 @@ public class Activator : MonoBehaviour
     public void Activate()
     {
 
-            gameObject.GetComponent<Renderer>().material = active;
+            //gameObject.GetComponent<Renderer>().material = active;
             _activated = true;
 
     }
@@ -35,7 +35,7 @@ public class Activator : MonoBehaviour
     public void Deactivate()
     {
 
-            gameObject.GetComponent<Renderer>().material = unactive;
+            //gameObject.GetComponent<Renderer>().material = unactive;
             _activated = false;
     }
 }
