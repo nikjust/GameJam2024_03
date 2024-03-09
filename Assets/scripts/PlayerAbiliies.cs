@@ -5,8 +5,10 @@ using UnityEngine;
 public class PlayerAbiliies : MonoBehaviour
 {
     public bool alternativeMode = false;
-
-
+    public AudioClip music;
+    public AudioClip altMusic;
+    public AudioSource audioSource;
+    
     void Start()
     {
 
@@ -19,6 +21,12 @@ public class PlayerAbiliies : MonoBehaviour
         {
             alternativeMode = !alternativeMode;
             var changeArray = GameObject.FindObjectsOfType<AlternativeChangeable>();
+
+            var moment = audioSource.time;
+            audioSource.clip = alternativeMode ? altMusic : music;
+            audioSource.Play();
+            audioSource.time = moment;
+            
 
             foreach (var go in changeArray)
             {
