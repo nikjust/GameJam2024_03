@@ -11,16 +11,6 @@ public class Button : Activable
     public Material active;
     public Material unactive;
     private bool _activated = false;
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public override bool IsActive()
     {
