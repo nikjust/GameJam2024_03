@@ -14,13 +14,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Second.unity
     guid: 47ad365ea85e5424e828fb441ce532c3
-  - enabled: 1
-    path: Assets/Third.unity
-    guid: 46859c9f9f7ff2445957e401acf9f1ec
-  - enabled: 1
-    path: Assets/Fourth.unity
-    guid: 2bfafa520e445fe4dbfc956606881f82
-  - enabled: 1
-    path: Assets/Fifth.unity
-    guid: e16a27d943db0264ca015cbec51e5fda
   m_configObjects: {}
