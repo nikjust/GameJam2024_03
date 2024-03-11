@@ -446,9 +446,9 @@ GameObject:
   - component: {fileID: 213653932}
   - component: {fileID: 213653931}
   - component: {fileID: 213653930}
-  - component: {fileID: 213653929}
   - component: {fileID: 213653928}
   - component: {fileID: 213653933}
+  - component: {fileID: 213653934}
   m_Layer: 0
   m_Name: Quad
   m_TagString: Untagged
@@ -471,30 +471,8 @@ MonoBehaviour:
   alternativeEnabled: 1
   changeable:
   - {fileID: 213653933}
-  collider: {fileID: 213653929}
+  collider: {fileID: 0}
   renderer: {fileID: 213653930}
---- !u!64 &213653929
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 213653927}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &213653930
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -573,6 +551,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextScene: OutdoorsScene
+--- !u!65 &213653934
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213653927}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 1, z: 0.16686708}
+  m_Center: {x: -7.1230177e-19, y: 0, z: -0.08343356}
 --- !u!1 &245350459 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8194638212823794836, guid: a37a786985ce1cf4d8d16dd5da4e7fa1,
@@ -3382,7 +3381,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: NestedParent_Unpack
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2144722564326223226, guid: 753d3ae3e9c88af41a866e4ada9c5c9e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
