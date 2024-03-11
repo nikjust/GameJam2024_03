@@ -550,7 +550,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7ad071d8a61b9a14e815852d3e0727c8, type: 2}
+  - {fileID: 2100000, guid: 427086ebde92a29478877dc6c83cdd72, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7157,7 +7157,7 @@ MonoBehaviour:
   targetSize: {x: 400, y: 400, z: 2000}
   smoothFactor: 50
   tolerance: 10
-  NextScene: First
+  NextScene: Fifth
 --- !u!54 &1791741278
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7270,7 +7270,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7ad071d8a61b9a14e815852d3e0727c8, type: 2}
+      objectReference: {fileID: 2100000, guid: 427086ebde92a29478877dc6c83cdd72, type: 2}
     - target: {fileID: 791993279875453400, guid: 8856cb6dcfaf4d744b2eac5441efa990,
         type: 3}
       propertyPath: m_LocalPosition.x

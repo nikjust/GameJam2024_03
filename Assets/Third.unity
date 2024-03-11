@@ -634,7 +634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b960aca0d4926b941af690c7dbb0ce07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextScene: OutdoorsScene
+  NextScene: Fourth
 --- !u!65 &213653934
 BoxCollider:
   m_ObjectHideFlags: 0

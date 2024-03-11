@@ -375,12 +375,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 213653927}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b960aca0d4926b941af690c7dbb0ce07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextScene: Second
+  NextScene: TheEnd
 --- !u!1 &482336955
 GameObject:
   m_ObjectHideFlags: 0
@@ -1977,6 +1977,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1614168959}
+  - component: {fileID: 1614168961}
+  - component: {fileID: 1614168960}
   m_Layer: 0
   m_Name: Place
   m_TagString: Untagged
@@ -2009,6 +2011,31 @@ Transform:
   - {fileID: 1333099757}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1614168960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614168958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4ca7f9f2d9c365419c32d6668f120e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1614168961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614168958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b90bc928e4f7b514199715ef4d4f4398, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveManager: {fileID: 1614168960}
 --- !u!1 &1915194376
 GameObject:
   m_ObjectHideFlags: 1
@@ -2084,12 +2111,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2115403051}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b960aca0d4926b941af690c7dbb0ce07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextScene: Second
+  NextScene: TheEnd
 --- !u!64 &2115403053
 MeshCollider:
   m_ObjectHideFlags: 0
